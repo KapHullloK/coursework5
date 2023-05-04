@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-
 from equipment import Equipment
 from base import Arena
 from classes import unit_classes
