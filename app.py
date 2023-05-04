@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for
 
-from equipment import Equipment
-from classes import unit_classes
-from unit import BaseUnit, PlayerUnit, EnemyUnit
 from base import Arena
+from classes import unit_classes
+from equipment import Equipment
+from unit import BaseUnit, PlayerUnit, EnemyUnit
 
 app = Flask(__name__)
 
