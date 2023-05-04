@@ -26,4 +26,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           script: |
             cd flask_app_ci
-            echo ${{ secrets.PASSWORD }} | sudo -S docker run -d -p 80:80 afrokirill/first_kir:master-4884058992
+            echo ${{ secrets.PASSWORD }} | sudo -S docker run -d -p 80:80 afrokirill/first_kir:master-4884153784
