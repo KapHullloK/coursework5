@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            echo ${{ secrets.PASSWORD }} | sudo -S docker run -d -p 80:80 afrokirill/first_kir:master-4892578378
+            echo ${{ secrets.PASSWORD }} | sudo -S docker run -d -p 80:80 afrokirill/first_kir:master-4892643651
